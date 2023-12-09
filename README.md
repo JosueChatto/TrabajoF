@@ -1,7 +1,6 @@
 # API RESTful con Node.js
 
-Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
-con implementación en contenedores de Docker.
+Se tiene contemplado desarrollar videojuego que sea didáctico y desafiante para todo el publico, este juego contará con distintos niveles en los cuales en cada nivel se encontrará un laberinto, dicho laberinto generará de manera aleatoria, los usuarios tendrán que cumplir la misión de salir de los laberintos pero no será a lo único que se enfrentarán, el laberinto contendrá diferentes tipos de puzzles, rompecabezas, encuestas en un tiempo límite; esto es para abrirse paso ya que el camino no estará totalmente libre. Con esto desafía la agilidad mental de los jugadores con los distintos métodos de ejercicios.
 
 ## Tabla de contenido
 
@@ -23,7 +22,7 @@ Asegúrate de tener instalado y configurado Docker antes de comenzar.
 1. Clonar el repositorio en la máquina local:
    
    ```sh
-   git clone https://github.com/francerz/node-restful.git
+   git clone https://github.com/JosueChatto/TrabajoF
    ```
 
 2. Navegar al directorio del proyecto:
