@@ -6,17 +6,17 @@ app.use(express.json());
 
 
 // Importa los controladores correspondientes
-const UsuariosController = require('./controllers/UsuariosControllers');
-const CuestionariosController = require('./controllers/CuestionariosControllers');
-const DificultadesController = require('./controllers/DificultadesControllers');
-const PuntosProgController = require('./controllers/PuntosProgControllers');
+const UsuarioController = require('./controllers/usuarioJController');
+const CuestionariosController = require('./controllers/cuestionariosController');
+const DificultadesController = require('./controllers/dificultadesController');
+const PuntosProgController = require('./controllers/puntosProgController');
 
 // Endpoints para la tabla usuarioj
-app.get('/usuarios', UsuariosController.indexGet);
-app.get('/usuarios/:id([0-9]+)', UsuariosController.ItemGet);
-app.post('/usuarios', UsuariosController.indexPost);
-app.put('/usuarios/:id([0-9]+)', UsuariosController.itemPut);
-app.patch('/usuarios/:id([0-9]+)', UsuariosController.itemPatch);
+app.get('/usuarioj', UsuariosController.indexGet);
+app.get('/usuarioj/:id([0-9]+)', UsuariosController.ItemGet);
+app.post('/usuarioj', UsuariosController.indexPost);
+app.put('/usuarioj/:id([0-9]+)', UsuariosController.itemPut);
+app.patch('/usuarioj/:id([0-9]+)', UsuariosController.itemPatch);
 
 // Endpoints para la tabla cuestionario
 app.get('/cuestionarios', CuestionariosController.indexGet);

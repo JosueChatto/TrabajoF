@@ -28,7 +28,7 @@ Asegúrate de tener instalado y configurado Docker antes de comenzar.
 2. Navegar al directorio del proyecto:
    
    ```sh
-   cd node-restful
+   cd TrabajoF-+
    ```
 
 3. Ejecutar el siguiente comando para iniciar los contenedores:

@@ -3,7 +3,7 @@
 FROM node:lts-slim
 
 #Crea y cambiamos al directorio /app
-WORKDIR /app/
+WORKDIR /app
 
 #Copiar el archivo package json y package lock a app, esto es despues de iniciar lo de la aplicacion
 COPY ./package*.json /app/
