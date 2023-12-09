@@ -1,7 +1,7 @@
 {
-  "name": "node-rest-l14",
+  "name": "proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto maze of doom",
   "main": "app.js",
   "scripts": {
     "start":"node ./src/app.js",

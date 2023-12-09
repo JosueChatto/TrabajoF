@@ -9,7 +9,7 @@ services:
       - 3000:80
     secrets:
       - db_password
-    command: ["npm", "run", "debug"] #esto tambien se agrega despues de iniciar la aplicacion
+    command: ["npm", "run", "debug"] 
   mysql:
     image: mysql:8.0.35
     volumes:
@@ -20,8 +20,8 @@ services:
       - 33020:3306
     environment:
       MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
-      MYSQL_DATABASE: restaurante
-      MYSQL_USER: user_restaurante
+      MYSQL_DATABASE: MazeDoomMS
+      MYSQL_USER: user_MazeDoomMS
       MYSQL_PASSWORD_FILE: /run/secrets/db_password
     secrets:
       - db_root_password

@@ -8,9 +8,9 @@ const connectToMysql=async function(){
         client:'mysql2',
         connection:{
         host: 'mysql', //Nombre del servico de docker-compose.yml
-        user:'user_restaurante',
+        user:'user_MazeDoomMS',
         password: dbPassword,
-        database: 'restaurante'
+        database: 'MazeDoomMS'
         }
     });
 
