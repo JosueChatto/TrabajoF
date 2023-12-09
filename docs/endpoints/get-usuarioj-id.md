@@ -1,15 +1,14 @@
-# Obtener información de un Jugador
+# Endpoint: `GET /usuarios/{idJugador}`
 
-Endpoint: `/usuarios/:id`
+Obtiene la información específica de un jugador.
 
-## Descripción
+## Parámetros de URL
+- `{idJugador}` (obligatorio): Identificador único del jugador que se desea recuperar.
 
-Este endpoint permite obtener información detallada de un jugador específico utilizando su identificador (`idJugador`).
-
-## Método
-
-- GET
-
+## Ejemplo de Solicitud
+```http 
+GET /usuarios/1
+```
 ## Parámetros de la URL
 
 - `id` (Tipo: Entero) - Identificador único del jugador.
@@ -18,6 +17,18 @@ Este endpoint permite obtener información detallada de un jugador específico u
 
 - Código de Estado: 200 OK
 - Cuerpo de la Respuesta:
+
+```json
+{
+  "idJugador":1,
+  "gamertag":"EjemploGamertag",
+  "nombre":"Juan","apellidos":"Pérez",
+  "edad":25,
+  "idDif":2,
+  "idPuntos":3
+}
+```
+
 ## Respuesta en Caso de Error
 - Código de Estado: 404 Not Found
 - Cuerpo de la Respuesta:
@@ -34,8 +45,7 @@ Este endpoint permite obtener información detallada de un jugador específico u
 }
 ```
 
-## Respuesta en Caso de Error
-- Código de Estado: 404 Not Found
+- Código de Estado: 500 Not Found
 - Cuerpo de la Respuesta:
 
 ```json
