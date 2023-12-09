@@ -42,7 +42,7 @@ app.patch('/puntosProg/:id([0-9]+)', PuntosProgController.itemPatch);
 app.get('/', function (req, res) {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.send('Bienvenido a EstateIQ!');
+    res.send('Bienvenido a Maze od Doom: Mind Survival!');
 });
 
 app.listen(puerto, function () {
