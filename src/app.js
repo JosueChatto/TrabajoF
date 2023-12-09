@@ -33,8 +33,3 @@ app.listen(puerto, function(){
     console.log('Servidor iniciado');
 });
 
-/*
-
-*/
-//consultar categorias, productos y buscar individualmente el elemento que se especifica.
-//Respuestas que deben devolver cada metodo POST,GET
